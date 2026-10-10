@@ -1,1 +1,1 @@
-const $=s=>document.querySelector(s);let headers=[],rows=[];function parseCSV(text){const out=[];let row=[],cell='',q=false;for(let
+const $=s=>document.querySelector(s);let headers=[],rows=[];function parseCSV(text){const out=[];let row=[],cell='',q=false;for(let i=0;i<text.length;i++){const c=text[i];if(q){if(c==='"'&&text[i+1]==='"'){cell+='"';i++}else if(c==='"')q=false;else cell+=c}else 
