@@ -1,1 +1,1 @@
-*{box-sizing:border-box}body{margin:0;background:#f4f3ef;color:#26292c;font:15px/1.5 "Segoe UI",sans-serif}header{padding:28px 
+*{box-sizing:border-box}body{margin:0;background:#f4f3ef;color:#26292c;font:15px/1.5 "Segoe UI",sans-serif}header{padding:28px clamp(20px,6vw,90px);background:#fff;display:flex;align-items:center;gap:19px;border-bottom:1px solid #e9e7e2}.mark{font:700 19px monospace;color:#283d32}.mark 
